@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: wemcjjjpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wemcjjjpipelinesjavascriptdocker
+  template:
+    metadata:
+      labels:
+        app: wemcjjjpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: wemcjjjpipelinesjavascriptdocker 
+          image: wetestmycontainerregistry.azurecr.io/wemcjjjpipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
