@@ -11,5 +11,5 @@ RUN npm install --production
 
 COPY . .
 
-EXPOSE 888
+EXPOSE 80
 CMD [ "node", "server.js" ]
