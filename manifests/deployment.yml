@@ -16,4 +16,4 @@ spec:
         - name: wemcjjjpipelinesjavascriptdocker 
           image: wetestmycontainerregistry.azurecr.io/wemcjjjpipelinesjavascriptdocker
           ports:
-          - containerPort: 8080
+          - containerPort: 80
